@@ -16,10 +16,10 @@ btn.addEventListener('click', function() {
         let screenNum = document.createElement('span');
         console.log(screenNum)
         screenNum.append(getRandom)
+        let containerNum = document.querySelector('#casualN');
+        containerNum.appendChild(screenNum)
 }
 
 
-let containerNum = document.querySelector('#casualN');
-console.log(containerNum)   
 })
 
