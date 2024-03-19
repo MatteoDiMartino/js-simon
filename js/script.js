@@ -7,18 +7,19 @@ console.log(btn)
 btn.addEventListener('click', function() {
     for (let i = 0; i<5; i++) {
         let getRandom = getRandomNumberForTheGame ()
-        console.log(getRandom);
 
         function getRandomNumberForTheGame (min, max) {
             let calcRandom = Math.floor(Math.random() * 10) + 1;
             return calcRandom
 }
+
         let screenNum = document.createElement('span');
         console.log(screenNum)
+        screenNum.append(getRandom)
 }
 
-    
 
+let containerNum = document.querySelector('#casualN');
+console.log(containerNum)   
 })
-
 
