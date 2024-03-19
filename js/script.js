@@ -13,7 +13,12 @@ btn.addEventListener('click', function() {
             let calcRandom = Math.floor(Math.random() * 10) + 1;
             return calcRandom
 }
-    }
+        let screenNum = document.createElement('span');
+        console.log(screenNum)
+}
+
+    
+
 })
 
 
